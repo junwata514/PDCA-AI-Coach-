@@ -28,5 +28,11 @@ textarea
 
 ・その他
 list-style
+float
+
+・背景画像の挿入
+background-image: url(画像のURL);
+background-size: cover;
+
 
 ブロック要素とインライン要素

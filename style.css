@@ -1,0 +1,59 @@
+/* リセットCSSを書かないと、レイアウトが崩れる */
+
+body {
+    font-family: "Avenir Next";
+}
+header {
+    background-color: aliceblue;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    background-color: lightslategray;
+}
+
+h3 {
+    border-bottom: 2px solid #dee7ec;
+}
+
+header {
+    padding: 20px 20px;
+}
+
+main {
+    padding: 20px 20px;
+}
+
+footer {
+    padding: 20px 20px;
+}
+
+textarea {
+    border: 1px solid #dee7ec;
+}
+
+.header-logo {
+    font-size: 24px;
+    float: left;
+    padding: 10px 20px;
+}
+
+.header-list li {
+    float: left;
+    padding: 15px 20px;
+}
+
+footer-logo {
+    font-size: 18px;
+    float: left;
+    padding: 10px 20px;
+}
+
+.footer-list li {
+    font-size: 14px;
+    float: right;
+    padding: 15px 20px;
+}
